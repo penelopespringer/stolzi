@@ -1,3 +1,39 @@
 .fancy-layout {
 	background-color: hotpink;
 }
+
+body {
+	font-family: sans-serif;
+	margin: 5rem;
+	padding: 2rem;
+	border: 5px hotpink dashed;
+	border-radius: 4rem;
+}
+
+.roman-list{
+	list-style: upper-roman;
+}
+
+.roman-list ul{
+	list-style: square;
+}
+
+li:hover {
+	color: red;
+}
+
+p:hover {
+	background-color: lightgoldenrodyellow;
+}
+
+p {
+	font-family: "Comic Sans MS";
+	font-size: 2.5rem;
+	font-weight: bold;
+	font-style: italic;
+	color: red;
+	background-color: blue;
+	max-width: 40%;
+	border-radius: 10px;
+	border: 12px hotpink dotted;
+}
